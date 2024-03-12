@@ -9,8 +9,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/manishkmr49
-/xyz-atm.git
+git clone https://github.com/manishkmr49/ATM-Machine
 Compile the Program:
 
 Copy code
