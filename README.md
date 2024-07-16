@@ -1,36 +1,81 @@
-# ATM-Machine
-Java program simulating ATM functionalities: balance check, withdraw, deposit, loan request. Secure PIN verification. Easy-to-use menu interface.
+# ATM Application
 
-XYZ ATM Java Program
-Welcome to the AAA ATM Java program repository. This program simulates an Automated Teller Machine (ATM) with basic functionalities. Users can perform actions such as checking balance, withdrawing money, depositing money, requesting a loan, and exiting the ATM.
+This is a simple ATM application written in Java. The application allows users to create accounts, log in, view balances, withdraw funds, deposit funds, and transfer funds between accounts. 
 
-How to Use:
-Clone the Repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/manishkmr49/ATM-Machine
-Compile the Program:
+- Create a new account with a customer number and PIN.
+- Log in using a customer number and PIN.
+- Access checking and savings accounts.
+- View account balances.
+- Withdraw and deposit funds.
+- Transfer funds between checking and savings accounts.
 
-Copy code
-javac ATM.java
-Run the Program:
+## Prerequisites
 
-Copy code
-java ATM
-Follow on-screen instructions:
+- Java Development Kit (JDK) installed on your system.
+- A Java IDE or text editor (e.g., IntelliJ IDEA, Eclipse, VS Code).
 
-Enter your 4-digit PIN when prompted.
-Choose from the options displayed in the menu.
-Follow further prompts according to your chosen action.
-Program Features:
-PIN Verification: Ensures security by requiring users to enter a valid 4-digit PIN.
-Menu-Driven Interface: Provides users with a clear menu of options for ease of use.
-Balance Inquiry: Allows users to check their account balance.
-Withdrawal: Enables users to withdraw funds from their account.
-Deposit: Facilitates depositing funds into the account.
-Loan Request: Provides users with the option to request a loan and displays the loan benefits and total amount to be repaid.
-Graceful Exit: Allows users to exit the ATM when they are done with their transactions. 
+## How to Run
 
-Contribution:
-Contributions to enhance the functionality, efficiency, or user experience of this program are welcome. If you have suggestions or encounter any issues, feel free to open an issue or submit a pull request.
+1. **Clone the repository** (or download the source code).
+
+    ```sh
+    git clone https://github.com/your-username/Java-ATM-Application.git
+    ```
+
+2. **Navigate to the project directory**.
+
+    ```sh
+    cd Java-ATM-Application
+    ```
+
+3. **Compile the Java files**.
+
+    ```sh
+    javac OptionMenu.java Account.java
+    ```
+
+4. **Run the application**.
+
+    ```sh
+    java OptionMenu
+    ```
+
+## Usage
+
+1. **Main Menu**:
+   - **Type 1**: Log in to an existing account.
+   - **Type 2**: Create a new account.
+
+2. **Account Access**:
+   - **Type 1**: Access Checking Account.
+   - **Type 2**: Access Savings Account.
+   - **Type 3**: Exit.
+
+3. **Checking/Savings Account Menu**:
+   - **Type 1**: View Balance.
+   - **Type 2**: Withdraw Funds.
+   - **Type 3**: Deposit Funds.
+   - **Type 4**: Transfer Funds.
+   - **Type 5**: Exit.
+
+## Example Accounts
+
+Two example accounts are pre-loaded into the system for testing purposes:
+
+1. Customer Number: `952141`, PIN: `191904`
+2. Customer Number: `123`, PIN: `123`
+
+## Code Overview
+
+- **OptionMenu.java**: Contains the main menu and options for account management.
+- **Account.java**: Represents an account with methods for balance management and transactions.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+Feel free to customize this README file according to your specific needs.
