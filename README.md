@@ -21,13 +21,13 @@ This is a simple ATM application written in Java. The application allows users t
 1. **Clone the repository** (or download the source code).
 
     ```sh
-    git clone https://github.com/your-username/Java-ATM-Application.git
+    git clone https://github.com/manishkmr49/Simple--ATM--Application.git
     ```
 
 2. **Navigate to the project directory**.
 
     ```sh
-    cd Java-ATM-Application
+    cd Simple--ATM--Application
     ```
 
 3. **Compile the Java files**.
