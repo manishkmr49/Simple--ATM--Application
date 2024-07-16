@@ -33,13 +33,13 @@ This is a simple ATM application written in Java. The application allows users t
 3. **Compile the Java files**.
 
     ```sh
-    javac OptionMenu.java Account.java
+    javac ATM.java OptionMenu.java Account.java
     ```
 
 4. **Run the application**.
 
     ```sh
-    java OptionMenu
+    java ATM
     ```
 
 ## Usage
@@ -69,12 +69,9 @@ Two example accounts are pre-loaded into the system for testing purposes:
 
 ## Code Overview
 
+- **ATM.java**: Contains the main method to start the application.
 - **OptionMenu.java**: Contains the main menu and options for account management.
 - **Account.java**: Represents an account with methods for balance management and transactions.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
 
